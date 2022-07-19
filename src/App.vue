@@ -1,8 +1,10 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <!-- <HomeComponent/> -->
-  <HomeComponent data="By: Aayush Niraula" msg="This is Vue JS Tutorial"/>
+  <div>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <!-- <HomeComponent/> -->
+    <HomeComponent data="By: Aayush Niraula" msg="This is Vue JS Tutorial"/>
+  </div>
 </template>
 
 <script>
