@@ -15,10 +15,10 @@
                 <th>Email</th>
             </tr>
             <tr v-for="user in users" :key="user.id">
-                 <th>{{user.id}}</th>
-                <th>{{user.name}}</th>
-                <th>{{user.age}}</th>
-                <th>{{user.email}}</th>
+                <td>{{user.id}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.age}}</td>
+                <td>{{user.email}}</td>
             </tr>
         </table>
     </div>
@@ -60,14 +60,19 @@
     props:{
         data: String,
         msg: String,
+    },methods:{
+        display(){
+            console.log('Button clicked message displayed on console');
+        }
     },data()
     {
         return {
             users:[
-                {id:1, name:'Peter', age:'23', email:'peter@email.com'},
-                {id:2, name:'Sam', age:'22', email:'sam@email.com'},
+                {id:1, name:'Steve', age:'23', email:'steve@email.com'},
+                {id:2, name:'Peter', age:'22', email:'peter@email.com'},
                 {id:3, name:'Tony', age:'23', email:'tony@email.com'},
                 {id:4, name:'Wanda', age:'25', email:'wanda@email.com'},
+                {id:5, name:'Nat', age:'24', email:'nat@email.com'},
             ]
         }
     }
