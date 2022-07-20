@@ -31,7 +31,7 @@ export default {
             active:false,
             row:'<h5>This is new row </h5>',
             disabled:true,
-            type:'Value',
+            type:'Value (a=10 & b=20)',
 
         }
     },methods:{

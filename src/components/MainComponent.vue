@@ -5,6 +5,8 @@
         <ProductComponent msg="This is product component props"/>
         <TableComponent  msg="List of all users"/>
         <TemplateComponent/>
+        <ClassStyleBindingComponent/>
+        <DataBindingComponent/>
     </div>
 </template>
 <script>
@@ -12,13 +14,18 @@ import UserComponent from './UserComponent.vue'
 import ProductComponent from './ProductComponent.vue'
 import TableComponent from './TableComponent.vue'
 import TemplateComponent from './TemplateComponent.vue'
+import ClassStyleBindingComponent from './ClassStyleBindingComponent.vue'
+import DataBindingComponent from './DataBindingComponent.vue'
+
 export default {
     name:'MainComponent',
     components:{
     UserComponent,
     ProductComponent,
     TableComponent,
-    TemplateComponent
+    TemplateComponent,
+    ClassStyleBindingComponent,
+    DataBindingComponent
 }
 
 }
