@@ -1,12 +1,14 @@
 <template>
     <div>
-        <h1>Main Component</h1>
+        <h1>{{title}}</h1>
         <UserComponent/>
         <ProductComponent msg="This is product component props"/>
         <TableComponent  msg="List of all users"/>
         <TemplateComponent/>
         <ClassStyleBindingComponent/>
         <DataBindingComponent/>
+        <!-- <PropComponent v-bind:name="users"/> -->
+        <ChildComponent v-on:newTitle="changeTitle($event)"/>
     </div>
 </template>
 <script>
@@ -16,6 +18,8 @@ import TableComponent from './TableComponent.vue'
 import TemplateComponent from './TemplateComponent.vue'
 import ClassStyleBindingComponent from './ClassStyleBindingComponent.vue'
 import DataBindingComponent from './DataBindingComponent.vue'
+// import PropComponent from './PropComponent.vue'
+import ChildComponent from './ChildComponent.vue'
 
 export default {
     name:'MainComponent',
@@ -25,8 +29,24 @@ export default {
     TableComponent,
     TemplateComponent,
     ClassStyleBindingComponent,
-    DataBindingComponent
-}
+    DataBindingComponent,
+    // PropComponent,
+    ChildComponent
+},data(){
+        return{
+            // users:[
+            //     {name:'Sam'},
+            //     {name:'Tony'},
+            //     {name:'Bruce'}
+            //     ],
+            title:"Main Component"
+            
+        }
+    },methods:{
+        changeTitle(title){
+            this.title = title
+        }
+    }
 
 }
 </script>
