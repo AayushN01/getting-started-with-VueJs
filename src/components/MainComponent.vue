@@ -4,18 +4,21 @@
         <UserComponent/>
         <ProductComponent msg="This is product component props"/>
         <TableComponent  msg="List of all users"/>
+        <TemplateComponent/>
     </div>
 </template>
 <script>
 import UserComponent from './UserComponent.vue'
 import ProductComponent from './ProductComponent.vue'
 import TableComponent from './TableComponent.vue'
+import TemplateComponent from './TemplateComponent.vue'
 export default {
     name:'MainComponent',
     components:{
     UserComponent,
     ProductComponent,
-    TableComponent
+    TableComponent,
+    TemplateComponent
 }
 
 }
@@ -23,7 +26,7 @@ export default {
 <style>
     div{
         background-color: #c3c3b5;
-        height: 1000px;
+        height: 100%;
         padding: 10px;  
     }
 </style>
