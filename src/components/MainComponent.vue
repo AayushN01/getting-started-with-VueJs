@@ -9,6 +9,7 @@
         <DataBindingComponent/>
         <!-- <PropComponent v-bind:name="users"/> -->
         <ChildComponent v-on:newTitle="changeTitle($event)"/>
+        <FormComponent/>
     </div>
 </template>
 <script>
@@ -20,6 +21,7 @@ import ClassStyleBindingComponent from './ClassStyleBindingComponent.vue'
 import DataBindingComponent from './DataBindingComponent.vue'
 // import PropComponent from './PropComponent.vue'
 import ChildComponent from './ChildComponent.vue'
+import FormComponent from './FormComponent.vue'
 
 export default {
     name:'MainComponent',
@@ -31,7 +33,8 @@ export default {
     ClassStyleBindingComponent,
     DataBindingComponent,
     // PropComponent,
-    ChildComponent
+    ChildComponent,
+    FormComponent
 },data(){
         return{
             // users:[
