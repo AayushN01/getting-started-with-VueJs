@@ -10,6 +10,7 @@
         <!-- <PropComponent v-bind:name="users"/> -->
         <ChildComponent v-on:newTitle="changeTitle($event)"/>
         <FormComponent/>
+        <FormValidationComponent/>
     </div>
 </template>
 <script>
@@ -22,6 +23,7 @@ import DataBindingComponent from './DataBindingComponent.vue'
 // import PropComponent from './PropComponent.vue'
 import ChildComponent from './ChildComponent.vue'
 import FormComponent from './FormComponent.vue'
+import FormValidationComponent from './FormValidationComponent.vue'
 
 export default {
     name:'MainComponent',
@@ -34,7 +36,8 @@ export default {
     DataBindingComponent,
     // PropComponent,
     ChildComponent,
-    FormComponent
+    FormComponent,
+    FormValidationComponent
 },data(){
         return{
             // users:[
