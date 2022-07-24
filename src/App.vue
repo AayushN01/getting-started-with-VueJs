@@ -5,26 +5,25 @@
     <!-- <HomeComponent/> -->
     <!-- <HomeComponent data="By: Aayush Niraula" msg="This is Vue JS Tutorial"/> -->
     <!-- <MainComponent/> -->
-
-    <div v-if="display">
-      <LifeCycleComponent/>
+    <!-- <div v-if="display">
+    <LifeCycleComponent/>
+      <button v-on:click="toggle">Toggle</button>
     </div>
-    <button v-on:click="toggle">Toggle</button>
-  </div>
+     -->
+     <EmployeeListComponent/>
+   </div>
 </template>
 
 <script>
+import EmployeeListComponent from './components/EmployeeListComponent.vue';
 // import HelloWorld from './components/HelloWorld.vue'
 // import HomeComponent from './components/HomeComponent.vue'
 // import MainComponent from './components/MainComponent.vue'
-import LifeCycleComponent from './components/LifeCycleComponent.vue';
+// import LifeCycleComponent from './components/LifeCycleComponent.vue';
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
-    // HomeComponent,
-    // MainComponent,
-    LifeCycleComponent
+    EmployeeListComponent
 },data(){
   return{
     display:true
