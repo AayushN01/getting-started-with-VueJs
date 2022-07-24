@@ -4,21 +4,37 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <HomeComponent/> -->
     <!-- <HomeComponent data="By: Aayush Niraula" msg="This is Vue JS Tutorial"/> -->
-    <MainComponent/>
+    <!-- <MainComponent/> -->
+
+    <div v-if="display">
+      <LifeCycleComponent/>
+    </div>
+    <button v-on:click="toggle">Toggle</button>
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import HomeComponent from './components/HomeComponent.vue'
-import MainComponent from './components/MainComponent.vue'
+// import MainComponent from './components/MainComponent.vue'
+import LifeCycleComponent from './components/LifeCycleComponent.vue';
 export default {
   name: 'App',
   components: {
     // HelloWorld,
     // HomeComponent,
-    MainComponent,
+    // MainComponent,
+    LifeCycleComponent
+},data(){
+  return{
+    display:true
+  }
+},methods:{
+  toggle(){
+    this.display = !this.display;
+  }
 }
+
 }
 </script>
 
