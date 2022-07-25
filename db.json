@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Ratione aut corrupti",
+      "author": "Est veritatis elit"
+    },
+    {
+      "id": 2,
+      "title": "Voluptatibus et labo",
+      "author": "Sed id earum ea ea "
+    },
+    {
+      "id": 3,
+      "title": "Placeat officiis ut",
+      "author": "Distinctio Recusand"
+    },
+    {
+      "id": 4,
+      "title": "Ducimus voluptatibu",
+      "author": "Debitis quisquam cum"
+    },
+    {
+      "id": 5,
+      "title": "Incididunt nisi ad o",
+      "author": "Dolor veritatis ipsa"
+    },
+    {
+      "id": 6,
+      "title": null,
+      "author": null
+    },
+    {
+      "id": 7,
+      "title": "Voluptatum qui quae ",
+      "author": "Fugiat voluptatem qu"
+    },
+    {
+      "id": 8,
+      "title": "Distinctio Nemo nos",
+      "author": "Quia distinctio Rep"
+    }
+  ],
+  "users": [
+    {
+      "name": "John",
+      "email": "john@email.com",
+      "address": "Kathmadnu"
+    },
+    {
+      "name": "Sam",
+      "email": "sam@email.com",
+      "address": "Lalitpur"
+    }
+  ]
+}

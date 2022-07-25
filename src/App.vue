@@ -10,12 +10,16 @@
       <button v-on:click="toggle">Toggle</button>
     </div>
      -->
-     <EmployeeListComponent/>
+     <!-- <EmployeeListComponent/> -->
+     <!-- <BootstrapComponent/> -->
+     <PostComponent/>
    </div>
 </template>
 
 <script>
-import EmployeeListComponent from './components/EmployeeListComponent.vue';
+// import EmployeeListComponent from './components/EmployeeListComponent.vue';
+// import BootstrapComponent from './components/BootstrapComponent.vue';
+import PostComponent from './components/PostComponent.vue';
 // import HelloWorld from './components/HelloWorld.vue'
 // import HomeComponent from './components/HomeComponent.vue'
 // import MainComponent from './components/MainComponent.vue'
@@ -23,7 +27,9 @@ import EmployeeListComponent from './components/EmployeeListComponent.vue';
 export default {
   name: 'App',
   components: {
-    EmployeeListComponent
+    // EmployeeListComponent,
+    // BootstrapComponent,
+    PostComponent
 },data(){
   return{
     display:true
