@@ -39,18 +39,31 @@
       "id": 8,
       "title": "Distinctio Nemo nos",
       "author": "Quia distinctio Rep"
+    },
+    {
+      "id": 9,
+      "title": "Unde minus nisi enim",
+      "author": "Eos architecto ab vo"
     }
   ],
   "users": [
     {
+      "id": 1,
       "name": "John",
       "email": "john@email.com",
       "address": "Kathmadnu"
     },
     {
-      "name": "Sam",
-      "email": "sam@email.com",
-      "address": "Lalitpur"
+      "id": 2,
+      "name": "Max",
+      "email": "mohn@email.com",
+      "address": "Jhapa"
+    },
+    {
+      "id": 3,
+      "name": "Drax",
+      "email": "drax@email.com",
+      "address": "Kailali"
     }
   ]
 }

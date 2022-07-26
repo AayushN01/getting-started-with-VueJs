@@ -12,14 +12,16 @@
      -->
      <!-- <EmployeeListComponent/> -->
      <!-- <BootstrapComponent/> -->
-     <PostComponent/>
+     <!-- <PostComponent/> -->
+     <UserDeleteComponent/>
    </div>
 </template>
 
 <script>
 // import EmployeeListComponent from './components/EmployeeListComponent.vue';
 // import BootstrapComponent from './components/BootstrapComponent.vue';
-import PostComponent from './components/PostComponent.vue';
+// import PostComponent from './components/PostComponent.vue';
+import UserDeleteComponent from './components/UserDeleteComponent.vue';
 // import HelloWorld from './components/HelloWorld.vue'
 // import HomeComponent from './components/HomeComponent.vue'
 // import MainComponent from './components/MainComponent.vue'
@@ -29,7 +31,8 @@ export default {
   components: {
     // EmployeeListComponent,
     // BootstrapComponent,
-    PostComponent
+    // PostComponent,
+    UserDeleteComponent
 },data(){
   return{
     display:true
