@@ -16,6 +16,9 @@
      <!-- <UserDeleteComponent/> -->
      <router-link to="/">Home</router-link> <br><br>
      <router-link to="/about">About</router-link> <br><br>
+     <router-link to="/profile/anil">Anil Profile</router-link> <br><br>
+     <router-link to="/profile/peter">Peter Profile</router-link> <br><br>
+     <router-link to="/profile/bruce">Bruce Profile</router-link> <br><br>
      <router-view></router-view>
    </div>
 </template>
