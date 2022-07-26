@@ -13,7 +13,10 @@
      <!-- <EmployeeListComponent/> -->
      <!-- <BootstrapComponent/> -->
      <!-- <PostComponent/> -->
-     <UserDeleteComponent/>
+     <!-- <UserDeleteComponent/> -->
+     <router-link to="/">Home</router-link> <br><br>
+     <router-link to="/about">About</router-link> <br><br>
+     <router-view></router-view>
    </div>
 </template>
 
@@ -21,7 +24,7 @@
 // import EmployeeListComponent from './components/EmployeeListComponent.vue';
 // import BootstrapComponent from './components/BootstrapComponent.vue';
 // import PostComponent from './components/PostComponent.vue';
-import UserDeleteComponent from './components/UserDeleteComponent.vue';
+// import UserDeleteComponent from './components/UserDeleteComponent.vue';
 // import HelloWorld from './components/HelloWorld.vue'
 // import HomeComponent from './components/HomeComponent.vue'
 // import MainComponent from './components/MainComponent.vue'
@@ -32,7 +35,7 @@ export default {
     // EmployeeListComponent,
     // BootstrapComponent,
     // PostComponent,
-    UserDeleteComponent
+    // UserDeleteComponent
 },data(){
   return{
     display:true
