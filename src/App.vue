@@ -14,14 +14,19 @@
      <!-- <BootstrapComponent/> -->
      <!-- <PostComponent/> -->
      <!-- <UserDeleteComponent/> -->
-     <router-link to="/">Home</router-link> <br><br>
-     <router-link to="/about">About</router-link> <br><br>
-     <router-link to="/profile/anil">Anil Profile</router-link> <br><br>
-     <router-link to="/profile/peter">Peter Profile</router-link> <br><br>
-     <router-link to="/profile/bruce">Bruce Profile</router-link> <br><br>
-     <router-link to="/blog">Blog</router-link> <br><br>
-     <router-link to="/contact">Contact</router-link> <br><br>
-     <router-view></router-view>
+     <div class="route">
+           <router-link to="/">Home</router-link> <br><br>
+          <router-link to="/dynamic">Dynamic Component</router-link> <br><br>
+          <router-link to="/main">Main Component</router-link> <br><br>
+          <router-link to="/about">About</router-link> <br><br>
+          <router-link to="/profile/anil">Anil Profile</router-link> <br><br>
+          <router-link to="/profile/peter">Peter Profile</router-link> <br><br>
+          <router-link to="/profile/bruce">Bruce Profile</router-link> <br><br>
+          <router-link to="/blog">Blog</router-link> <br><br>
+          <router-link to="/contact">Contact</router-link> <br><br>
+     </div>
+          <router-view></router-view>
+
    </div>
 </template>
 
@@ -62,5 +67,14 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.route{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.route a{
+  padding: 5px 10px;
 }
 </style>
