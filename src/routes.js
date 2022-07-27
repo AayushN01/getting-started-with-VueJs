@@ -6,6 +6,7 @@ import PageNotFoundComponent from './components/PageNotFoundComponent.vue';
 import DynamicComponent from './components/DynamicComponent.vue';
 import MainComponent from './components/MainComponent.vue';
 import NonPropsHomeComponent from './components/NonPropsHomeComponent.vue';
+import BlogComponent from './components/BlogComponent.vue';
 
 const routes = [
     {name:'Home',path:'/',component:HomePageComponent},
@@ -14,6 +15,7 @@ const routes = [
     {name:'Dynamic',path:'/dynamic',component:DynamicComponent},
     {name:'Main',path:'/main',component:MainComponent},
     {name:'Non Props',path:'/non-props',component:NonPropsHomeComponent},
+    {name:'Blog',path:'/blog',component:BlogComponent},
     {name:'Page Not Found',path:'/:pathMatch(.*)*',component:PageNotFoundComponent},
 ];
 
