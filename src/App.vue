@@ -19,14 +19,15 @@
           <router-link to="/dynamic">Dynamic Component</router-link> <br><br>
           <router-link to="/main">Main Component</router-link> <br><br>
           <router-link to="/about">About</router-link> <br><br>
-          <router-link to="/profile/anil">Anil Profile</router-link> <br><br>
+          <router-link to="/profile">Profile</router-link> <br><br>
+          <!-- <router-link to="/profile/anil">Anil Profile</router-link> <br><br>
           <router-link to="/profile/peter">Peter Profile</router-link> <br><br>
-          <router-link to="/profile/bruce">Bruce Profile</router-link> <br><br>
+          <router-link to="/profile/bruce">Bruce Profile</router-link> <br><br> -->
           <router-link to="/blog">Blog</router-link> <br><br>
           <router-link to="/contact">Contact</router-link> <br><br>
+          <router-link to="/non-props">Non Props</router-link> <br><br>
      </div>
           <router-view></router-view>
-
    </div>
 </template>
 

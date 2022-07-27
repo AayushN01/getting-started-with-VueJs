@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>{{title}}</h1>
+        <h1>Main Component</h1>
         <UserComponent/>
         <ProductComponent msg="This is product component props"/>
         <TableComponent  msg="List of all users"/>
@@ -12,6 +12,8 @@
         <FormComponent/>
         <FormValidationComponent/>
         <LifeCycleComponent/>
+        <!-- <h2>$ {{(dollars*rupeeVal) - discount}}</h2> -->
+        <h2>$ {{getResult}}</h2>
     </div>
 </template>
 
@@ -49,15 +51,23 @@ export default {
             //     {name:'Tony'},
             //     {name:'Bruce'}
             //     ],
-            title:"Main Component"
-            
-        }
-    },methods:{
-        changeTitle(title){
-            this.title = title
-        }
-    }
+            // title:"Main Component"
+            dollars: 100,
+            rupeeVal: 127,
+            discount:10,
 
+        }
+    // },methods:{
+    //     changeTitle(title){
+    //         this.title = title
+    //     }
+    // }
+         },computed:{
+            getResult()
+            {
+                return ((this.dollars*this.rupeeVal)-this.discount);
+            }
+        }
 }
 </script>
 <style>
