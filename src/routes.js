@@ -14,7 +14,7 @@ const routes = [
     {name:'Profile',path:'/profile/:name',component:ProfileComponent},
     {name:'Dynamic',path:'/dynamic',component:DynamicComponent},
     {name:'Main',path:'/main',component:MainComponent},
-    {name:'Non Props',path:'/non-props',component:NonPropsHomeComponent},
+    {name:'Non Props',path:'/non-props',component:NonPropsHomeComponent},   
     {name:'Blog',path:'/blog',component:BlogComponent},
     {name:'Page Not Found',path:'/:pathMatch(.*)*',component:PageNotFoundComponent},
 ];

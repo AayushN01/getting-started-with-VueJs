@@ -20,7 +20,7 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos a fugiat, temporibus exercitationem minima labore sit molestiae adipisci harum deserunt, eveniet neque quos quam corrupti mollitia pariatur est fuga distinctio.</p>
             </template>
             <template v-slot:footer>
-                <button>Buy Now</button>
+                
             </template>
         </BlogComponent>
         <teleport to="#footer">

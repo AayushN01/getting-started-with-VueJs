@@ -13,6 +13,7 @@
     </content>
     <footer>
         <slot name="footer">
+            <button>Submit</button>
         </slot>
     </footer>
     
